@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dilungasr/dnet/logger"
+	"github.com/dilungalabs/dnet/logger"
 
-	"github.com/dilungasr/radi"
+	"github.com/dilungalabs/radi"
 )
 
 // AuthLink validates and authenticates verification link.

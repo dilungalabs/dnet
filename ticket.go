@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dilungasr/radi"
+	"github.com/dilungalabs/radi"
 	"github.com/google/uuid"
 )
 

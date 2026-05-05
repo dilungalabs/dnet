@@ -7,9 +7,9 @@ import (
 	"github.com/mitchellh/mapstructure"
 )
 
-// By Dilunga SR<dilungasr@gmail.com>
+// By Dilunga SR<dilungalabs@gmail.com>
 // wwww.axismedium.com
-// twitter: @dilungasr
+// twitter: @dilungalabs
 
 // Broadcast sends data to all execept the sender
 func (c *Ctx) Broadcast(statusAndData ...interface{}) {

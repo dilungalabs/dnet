@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/dilungasr/radi"
+	"github.com/dilungalabs/radi"
 )
 
 // ActionHandler is a function wich receives Ctx

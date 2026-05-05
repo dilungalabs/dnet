@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dilungasr/tanzanite/types"
+	"github.com/dilungalabs/tanzanite/types"
 )
 
 // deleteContext is for deleting the context from the hub
