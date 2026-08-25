@@ -510,3 +510,22 @@ func (c *Ctx) ClearTemp() {
   |  WORKING WITH EMAILS   |
   ----------------------------------------------------------
 */
+
+/*
+   -----------------------------------------------
+    PREDICATE METHODS GOES HERE
+   -----------------------------------------------
+
+*/
+
+// Some returns true if the given test function returns true for any context in the hub
+func (c *Ctx) Some(testFn func(c *ReadOnlyCtx) bool) bool {
+	for context := range c.hub.contexts {
+		if testFn(NewReadOnlyCtx(context)) {
+			return true
+		}
+	}
+
+	// if no match found
+	return false
+}
