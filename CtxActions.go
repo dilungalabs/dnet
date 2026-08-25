@@ -513,7 +513,8 @@ func (c *Ctx) ClearTemp() {
 
 /*
    -----------------------------------------------
-    PREDICATE METHODS GOES HERE
+    PREDICATE METHODS
+	introduced in v1.5.821
    -----------------------------------------------
 
 */
